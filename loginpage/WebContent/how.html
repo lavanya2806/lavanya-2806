@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login</title>
+<style>
+.hr {
+            background: url("C:/Users/admin/desktop/download.jpg");
+             background-repeat: no-repeat;
+             background-size:100%;
+             position:fixed;
+      
+        }
+        .hr2
+        {
+        background-color:white;
+        height:240px;
+        width:45%;
+        align-items:center;
+        margin-left:250px;
+        margin-top:150px;
+        margin-bottom:20px;
+         position:fixed;
+         
+        }
+        
+        td
+        {
+        text-align:left;}
+        table
+        {
+        margin-left:20px;}
+        .hr3
+        {
+        margin-left:20px;}
+        
+        h3
+        {
+        margin-left:20px;}
+        h1
+        {
+        padding-top:10px;
+        margin-left:70px;
+        }
+        
+      .lav
+      {
+        display:flex;
+        align-items:center;
+	justify-content : space-between;}
+	.abcd
+	{
+	margin-right:20px;
+	color:red;}
+</style>
+</head>
+<body class="hr">
+
+<div class="hr2">
+
+
+  <h1>Login to Web App</h1>
+  
+  <form method="post" action="loginservlet">
+  <table><tr><td>
+    Username:</td><td><input type="text" name="Username" value="" placeholder="Username or Email"></td></tr>
+   <tr><td> Password:</td><td><input type="password" name="Password" value="" placeholder="Password"></td></tr></table>
+   
+   <div class="lav">
+    <h3 class="submit"><input type="submit" name="commit" value="Login"></h3>
+    <div class="abcd"></div>
+  </div>
+ <a href="user.html" class="hr3">Dont't have an account?Sign up...</a>
+ 
+
+ </form>
+
+</div>
+
+</body>
+</html>
+

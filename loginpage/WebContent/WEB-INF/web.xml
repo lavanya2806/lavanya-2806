@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>Lets sum and prod</display-name>
+  <welcome-file-list>
+  <welcome-file>main.html</welcome-file>
+  <welcome-file>how.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+ 
+  <servlet>
+    <servlet-name>loginservlet</servlet-name>
+    <servlet-class>test.loginservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>loginservlet</servlet-name>
+    <url-pattern>/loginservlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>loginservlet2</servlet-name>
+    <servlet-class>test.loginservlet2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>loginservlet2</servlet-name>
+    <url-pattern>/loginservlet2</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>insert</servlet-name>
+    <servlet-class>test.insert</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>insert</servlet-name>
+    <url-pattern>/insert</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>correct</servlet-name>
+    <servlet-class>test.correct</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>correct</servlet-name>
+    <url-pattern>/correct</url-pattern>
+  </servlet-mapping> 
+</web-app>
